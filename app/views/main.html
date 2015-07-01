@@ -1,0 +1,24 @@
+<div class="" ng-controller="MainCtrl">
+  <h1>Welcome to Monkey Radio India. {{cloudcastCount}} cloudcasts and counting!</h1>
+  <!--<div class="mainBackground"><img src="../images/1553160_803957026344623_5922191761602104843_o.jpg"></div> -->
+  <div class="mixDesktop" >
+      <div class="extraLargeImage" ng-repeat="(key, value) in mixDetails" href="{{value.url}}" ng-click="putMixOnPlayer(value.url); $event.stopPropagation()">
+        <img class="" alt="{{value.name}}" src="{{value.pictures.extra_large}}">
+        <div class="smallDetailsOfTheMix">
+          <p>{{value.name}}</p>
+          <p class="clear"></p>
+          <p>Hosted by<a href="#/host/{{value.host}}" ng-click="$event.stopPropagation()" >{{value.host}}</a></p>
+        </div>
+      </div>
+  </div>
+
+  <!--<div class="mixWrapper">
+    <p class="mix" ng-repeat="(key, value) in mixDetails" href="{{value.url}}" ng-click="putMixOnPlayer(value.url)">
+        <img class="mixImage" src="{{value.pictures.medium}}">
+        <span class="mixName" href="">{{value.name}}</span>
+        <span class="mixDetailsSection">Plays: {{value.play_count}} | Favorites: {{value.favorite_count}}</span>
+        <span class="mixDetailsSection">Hosted by <a href="#/">{{value.host}}</a> </span>
+        <span class="clearSpan"></span>
+    </p>
+  </div>-->
+</div>

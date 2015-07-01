@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-inspector',
+1 verbose cli   '-g' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'node-inspector', null ]
+5 verbose cache add spec node-inspector
+6 silly cache add parsed spec { raw: 'node-inspector',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'node-inspector',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed node-inspector@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'node-inspector', range: '*', hasData: false }
+11 silly mapToRegistry name node-inspector
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/node-inspector
+15 verbose addNameRange registry:https://registry.npmjs.org/node-inspector not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/node-inspector
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 12:17:31 PM
+19 verbose request id c0b8d946d27dfc91
+20 verbose etag "8CPJVXCDEUKBUE5CB8YMEW5XN"
+21 http request GET https://registry.npmjs.org/node-inspector
+22 http 304 https://registry.npmjs.org/node-inspector
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 03 Mar 2015 06:47:32 GMT',
+23 silly get     server: 'Apache',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Tue, 03 Mar 2015 06:39:41 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"8CPJVXCDEUKBUE5CB8YMEW5XN"',
+23 silly get     age: '20',
+23 silly get     'x-served-by': 'cache-lax1424-LAX',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '3',
+23 silly get     'x-timer': 'S1425365252.756454,VS0,VE0',
+23 silly get     vary: 'Accept',
+23 silly get     'content-length': '0',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose etag https://registry.npmjs.org/node-inspector from cache
+25 verbose get saving node-inspector to /Users/hsreedhar/.npm/registry.npmjs.org/node-inspector/.cache.json
+26 silly addNameRange number 2 { name: 'node-inspector', range: '*', hasData: true }
+27 silly addNameRange versions [ 'node-inspector',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.7',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.1.10',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.3',
+27 silly addNameRange     '0.3.4',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.2',
+27 silly addNameRange     '0.7.0-1',
+27 silly addNameRange     '0.2.0-beta1',
+27 silly addNameRange     '0.2.0-beta2',
+27 silly addNameRange     '0.2.0-beta3',
+27 silly addNameRange     '0.2.0-beta4',
+27 silly addNameRange     '0.3.0-preview1',
+27 silly addNameRange     '0.7.0-2',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.3',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1' ] ]
+28 verbose addNamed node-inspector@0.9.1
+29 silly addNamed semver.valid 0.9.1
+30 silly addNamed semver.validRange 0.9.1
+31 silly cache afterAdd node-inspector@0.9.1
+32 verbose afterAdd /Users/hsreedhar/.npm/node-inspector/0.9.1/package/package.json not in flight; writing
+33 verbose afterAdd /Users/hsreedhar/.npm/node-inspector/0.9.1/package/package.json written
+34 silly install resolved [ { name: 'node-inspector',
+34 silly install resolved     version: '0.9.1',
+34 silly install resolved     description: 'Web Inspector based nodeJS debugger',
+34 silly install resolved     homepage: 'http://github.com/node-inspector/node-inspector',
+34 silly install resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+34 silly install resolved     keywords: [ 'debug', 'debugger', 'inspector', 'profiler' ],
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'http://github.com/node-inspector/node-inspector.git' },
+34 silly install resolved     engines: { node: '>=0.8.0' },
+34 silly install resolved     bin:
+34 silly install resolved      { 'node-inspector': './bin/inspector.js',
+34 silly install resolved        'node-debug': './bin/node-debug.js' },
+34 silly install resolved     dependencies:
+34 silly install resolved      { express: '^4.0',
+34 silly install resolved        'serve-favicon': '^2.1.1',
+34 silly install resolved        async: '~0.9',
+34 silly install resolved        glob: '^4.3.5',
+34 silly install resolved        rc: '~0.5.0',
+34 silly install resolved        'strong-data-uri': '~0.1.0',
+34 silly install resolved        debug: '^1.0',
+34 silly install resolved        ws: '~0.4.31',
+34 silly install resolved        'biased-opener': '~0.2.2',
+34 silly install resolved        yargs: '^1.2.1',
+34 silly install resolved        which: '^1.0.5',
+34 silly install resolved        'v8-debug': '~0.4.2',
+34 silly install resolved        'v8-profiler': '~5.2.4',
+34 silly install resolved        semver: '^3.0.1' },
+34 silly install resolved     devDependencies:
+34 silly install resolved      { mocha: '^1.21',
+34 silly install resolved        chai: '^1.9',
+34 silly install resolved        jshint: '^2.4.4',
+34 silly install resolved        'fs-extra': '~0.8.1' },
+34 silly install resolved     preferGlobal: true,
+34 silly install resolved     scripts: { pretest: 'jshint .', test: 'mocha' },
+34 silly install resolved     contributors:
+34 silly install resolved      [ [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object] ],
+34 silly install resolved     gitHead: '197053c52fc4a07e040728a163ac84e8ad09c10d',
+34 silly install resolved     bugs: { url: 'https://github.com/node-inspector/node-inspector/issues' },
+34 silly install resolved     _id: 'node-inspector@0.9.1',
+34 silly install resolved     _shasum: '64d0468d1fca5da8a440dee988ba03fb956467fa',
+34 silly install resolved     _from: 'node-inspector@*',
+34 silly install resolved     _npmVersion: '2.5.1',
+34 silly install resolved     _nodeVersion: '0.10.36',
+34 silly install resolved     _npmUser: { name: '3y3', email: '3y3@bk.ru' },
+34 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '64d0468d1fca5da8a440dee988ba03fb956467fa',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/node-inspector/-/node-inspector-0.9.1.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/node-inspector/-/node-inspector-0.9.1.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install node-inspector@0.9.1 into /usr/local/lib
+36 info installOne node-inspector@0.9.1
+37 verbose installOne of node-inspector to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/hsreedhar/.npm/_locks/node-inspector-885d0a05b8e6718d.lock for /usr/local/lib/node_modules/node-inspector
+39 silly install write writing node-inspector 0.9.1 to /usr/local/lib/node_modules/node-inspector
+40 silly cache addNamed cb node-inspector@0.9.1
+41 verbose unbuild lib/node_modules/node-inspector
+42 info preuninstall node-inspector@0.9.1
+43 info uninstall node-inspector@0.9.1
+44 verbose unbuild rmStuff node-inspector@0.9.1 from /usr/local/lib/node_modules
+45 verbose gentlyRm verifying that /usr/local is managed by npm
+46 verbose gentlyRm verifying that /usr/local is managed by npm
+47 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+48 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+49 silly isManaged /usr/local/lib/node_modules is inside /usr/local
+50 silly gentlyRm /usr/local is managed by npm
+51 silly gentlyRm /usr/local/bin/node-debug is under /usr/local
+52 verbose gentlyRm vacuuming /usr/local/bin/node-debug up to /usr/local
+53 silly isManaged /usr/local/bin is inside /usr/local
+54 silly gentlyRm /usr/local is managed by npm
+55 silly gentlyRm /usr/local/bin/node-inspector is under /usr/local
+56 verbose gentlyRm vacuuming /usr/local/bin/node-inspector up to /usr/local
+57 info postuninstall node-inspector@0.9.1
+58 verbose gentlyRm vacuuming /usr/local/lib/node_modules/node-inspector
+59 silly gentlyRm purging /usr/local/lib/node_modules/node-inspector
+60 verbose unlock done using /Users/hsreedhar/.npm/_locks/node-inspector-885d0a05b8e6718d.lock for /usr/local/lib/node_modules/node-inspector
+61 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/node-inspector'
+61 verbose stack     at Error (native)
+62 verbose cwd /Users/hsreedhar/Documents/yo/app
+63 error Darwin 14.0.0
+64 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "node-inspector" "-g"
+65 error node v0.12.0
+66 error npm  v2.5.1
+67 error path /usr/local/lib/node_modules/node-inspector
+68 error code EACCES
+69 error errno -13
+70 error Error: EACCES, unlink '/usr/local/lib/node_modules/node-inspector'
+70 error     at Error (native)
+70 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/node-inspector']
+70 error   errno: -13,
+70 error   code: 'EACCES',
+70 error   path: '/usr/local/lib/node_modules/node-inspector' }
+71 error Please try running this command again as root/Administrator.
+72 verbose exit [ -13, true ]
+73 verbose unbuild lib/node_modules/node-inspector
+74 info preuninstall node-inspector@0.9.1
+75 info uninstall node-inspector@0.9.1
+76 verbose unbuild rmStuff node-inspector@0.9.1 from /usr/local/lib/node_modules
+77 verbose gentlyRm verifying that /usr/local is managed by npm
+78 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+79 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+80 silly isManaged /usr/local is not inside /usr/local/bin
+81 silly isManaged /usr/local is inside /usr/local
+82 verbose gentlyRm verifying that /usr/local is managed by npm
+83 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+84 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+85 silly isManaged /usr/local is not inside /usr/local/bin
+86 silly isManaged /usr/local is inside /usr/local
+87 silly gentlyRm /usr/local is managed by npm
+88 silly gentlyRm /usr/local/bin/node-inspector is under /usr/local
+89 verbose gentlyRm vacuuming /usr/local/bin/node-inspector up to /usr/local
+90 silly gentlyRm /usr/local is managed by npm
+91 silly gentlyRm /usr/local/bin/node-debug is under /usr/local
+92 verbose gentlyRm vacuuming /usr/local/bin/node-debug up to /usr/local
+93 info postuninstall node-inspector@0.9.1
+94 verbose gentlyRm vacuuming /usr/local/lib/node_modules/node-inspector
+95 silly gentlyRm purging /usr/local/lib/node_modules/node-inspector
+96 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/node-inspector'
+96 error error rolling back     at Error (native)
+96 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/node-inspector']
+96 error error rolling back   errno: -13,
+96 error error rolling back   code: 'EACCES',
+96 error error rolling back   path: '/usr/local/lib/node_modules/node-inspector' }
